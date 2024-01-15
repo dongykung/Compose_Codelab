@@ -19,7 +19,7 @@
             android:theme="@style/Theme.Android_ComposeCamp_Codelab">
 
         </activity>
-        <activity android:name=".BusinessCard"
+        <activity android:name=".DiceRoll"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.Android_ComposeCamp_Codelab">
