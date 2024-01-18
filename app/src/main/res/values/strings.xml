@@ -41,6 +41,27 @@
     <string name="how_was_the_service">Tip Percentage</string>
     <string name="round_up_tip">Round up tip?</string>
 
+    <string name="a1title">Amusement Park</string>
+    <string name="a1by">Dongkyung</string>
+    <string name="a1year">2021</string>
+
+    <string name="a2title">Mountain</string>
+    <string name="a2by">ArtSpace</string>
+    <string name="a2year">2022</string>
+
+    <string name="a3title">SkyMountain</string>
+    <string name="a3by">ArtSpacer</string>
+    <string name="a3year">2023</string>
+
+    <string name="a4title">City</string>
+    <string name="a4by">Korea</string>
+    <string name="a4year">2023</string>
+
+    <string name="a5title">River</string>
+    <string name="a5by">River</string>
+    <string name="a5year">2024</string>
+
+
 
 
 </resources>
