@@ -62,7 +62,7 @@ class Calculator : ComponentActivity() {
 }
 
 @Composable
-private fun TipTimeLayout() {
+internal fun TipTimeLayout() {
 
     var amountInput by rememberSaveable { mutableStateOf("") }
     var tipInput by rememberSaveable { mutableStateOf("") }
