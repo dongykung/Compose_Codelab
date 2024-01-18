@@ -32,8 +32,14 @@
     <string name="lemontree">Lemon tree</string>
     <string name="Lemon">Lemon</string>
     <string name="glasslemon">Glass of lemonade</string>
-    <string name="emptylemon">Empty glass
-e</string>
+    <string name="emptylemon">Empty glass</string>
+
+   <string name="Calculator">Tip Time</string>
+   <string name="calculate_tip">Calculate Tip</string>
+   <string name="bill_amount">Bill Amount</string>
+   <string name="tip_amount">Tip Amount: %s</string>
+    <string name="how_was_the_service">Tip Percentage</string>
+    <string name="round_up_tip">Round up tip?</string>
 
 
 
