@@ -8,8 +8,3 @@ data class Affirmation(
     @DrawableRes val imageResourceId:Int
 )
 
-data class TopicGridData(
-    @StringRes val stringResourceId : Int,
-    val like : Int,
-    @DrawableRes val imageResourceId:Int
-)
