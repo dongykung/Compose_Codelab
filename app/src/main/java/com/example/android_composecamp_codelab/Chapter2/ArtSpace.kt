@@ -52,7 +52,7 @@ class ArtSpace : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-
+                        ArtSpaceScreen()
                 }
             }
         }
@@ -152,7 +152,7 @@ private fun ArtSpaceScreen() {
                 },
                 check = previous)
             ImageButton(
-                text = "Nexet",
+                text = "Next",
                 onClick = {
                     imageNumber++
                 },check = next)
