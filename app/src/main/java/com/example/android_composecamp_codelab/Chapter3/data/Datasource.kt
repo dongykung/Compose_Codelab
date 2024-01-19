@@ -1,6 +1,7 @@
 package com.example.android_composecamp_codelab.Chapter3.data
 
 import com.example.android_composecamp_codelab.Chapter3.model.Affirmation
+import com.example.android_composecamp_codelab.Chapter3.model.Topic
 import com.example.android_composecamp_codelab.R
 
 class Datasource {
@@ -18,4 +19,5 @@ class Datasource {
             Affirmation(R.string.affirmation10, R.drawable.image10)
         )
     }
+
 }
