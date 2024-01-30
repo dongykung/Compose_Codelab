@@ -9,6 +9,7 @@ import com.example.android_composecamp_codelab.Chapter4.Reply.ui.ReplyApp
 import com.example.android_composecamp_codelab.ui.theme.Android_ComposeCamp_CodelabTheme
 
 class ReplyActivity:ComponentActivity() {
+
     @OptIn(ExperimentalMaterial3WindowSizeClassApi::class)
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

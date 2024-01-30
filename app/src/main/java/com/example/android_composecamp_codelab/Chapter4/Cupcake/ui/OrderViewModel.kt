@@ -29,6 +29,7 @@ class OrderViewModel:ViewModel() {
         }
     }
 
+
     fun setFlavor(desiredFlavor: String) {
         _uiState.update { currentState ->
             currentState.copy(flavor = desiredFlavor)

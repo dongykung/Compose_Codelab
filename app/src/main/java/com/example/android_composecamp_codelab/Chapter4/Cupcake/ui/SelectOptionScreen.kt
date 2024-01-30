@@ -39,7 +39,7 @@ fun SelectOptionScreen(
     var selectedValue by rememberSaveable { mutableStateOf("") }
     Column(
         modifier = modifier,
-        verticalArrangement = Arrangement.SpaceBetween
+        //verticalArrangement = Arrangement.SpaceBetween
     ) {
         Column(modifier = Modifier.padding(16.dp)) {
             options.forEach { item ->
@@ -77,7 +77,7 @@ fun SelectOptionScreen(
                 .fillMaxWidth()
                 .padding(dimensionResource(R.dimen.padding_medium)),
             horizontalArrangement = Arrangement.spacedBy(dimensionResource(R.dimen.padding_medium)),
-            verticalAlignment = Alignment.Bottom
+            //verticalAlignment = Alignment.Bottom
         ) {
             OutlinedButton(
                 modifier = Modifier.weight(1f),
