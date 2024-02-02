@@ -28,7 +28,7 @@ fun MarsPhotoApp() {
         topBar = {
             MarsTopAppBar(scrollBehavior = scrollBehavior)
         }) {
-        val marsViewModel:MarsViewModel= viewModel()
+        val marsViewModel:MarsViewModel= viewModel(factory = MarsViewModel.Factory)
         Surface(modifier = Modifier.fillMaxSize()) {
             HomeScreen(marsUiState = marsViewModel.marsUiState, contentpadding = it)
         }
