@@ -33,7 +33,7 @@ class MarsViewModel(private val marsPhotosRepository: MarsPhotosRepository) : Vi
         getMarsPhotos()
     }
 
-    private fun getMarsPhotos() {
+     fun getMarsPhotos() {
         viewModelScope.launch {
             marsUiState = try {
                 //viewmodel이 네트워크 요청을 직접하지 않고 저장소가 데이터를 제공한다.

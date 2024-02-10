@@ -30,7 +30,11 @@ fun MarsPhotoApp() {
         }) {
         val marsViewModel:MarsViewModel= viewModel(factory = MarsViewModel.Factory)
         Surface(modifier = Modifier.fillMaxSize()) {
-            HomeScreen(marsUiState = marsViewModel.marsUiState, contentpadding = it)
+            HomeScreen(marsUiState = marsViewModel.marsUiState, contentpadding = it, retryAction = {
+                marsViewModel.getMarsPhotos()
+            })
+
+
         }
     }
 }
